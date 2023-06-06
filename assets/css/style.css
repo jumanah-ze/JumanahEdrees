@@ -473,7 +473,12 @@ section {
   line-height: 28px;
   margin-bottom: 0;
 }
-
+@media (max-width: 767px) {
+  .services .title {
+    font-weight: 200;
+    font-size: 12px;
+  }
+}
 /*--------------------------------------------------------------
 # Experience
 ---------------------------------------------------------------*/
